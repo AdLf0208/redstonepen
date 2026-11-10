@@ -1,0 +1,10 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "condition": { "type": "minecraft:survives_explosion" },
+      "entries": [ { "name": "redstonepen:relay", "type": "minecraft:item" } ],
+      "rolls": 1.0
+    }
+  ]
+}

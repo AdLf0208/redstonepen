@@ -1,0 +1,11 @@
+{
+  "title": "itemGroup.tabredstonepen",
+  "icon": "redstonepen:pen",
+  "items": [
+    "redstonepen:pen",
+    "redstonepen:relay",
+    "redstonepen:inverted_relay",
+    "redstonepen:pulse_relay",
+    "redstonepen:bistable_relay"
+  ]
+}

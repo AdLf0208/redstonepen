@@ -1,0 +1,109 @@
+{
+  "variants": {
+    "bend=none,axis=x": {
+      "model": "redstonepen:block/track_x"
+    },
+    "bend=none,axis=y": {
+      "model": "redstonepen:block/track_y"
+    },
+    "bend=none,axis=z": {
+      "model": "redstonepen:block/track_z"
+    },
+    "bend=down_north": {
+      "model": "redstonepen:block/track_down_north"
+    },
+    "bend=down_south": {
+      "model": "redstonepen:block/track_down_south"
+    },
+    "bend=down_west": {
+      "model": "redstonepen:block/track_down_west"
+    },
+    "bend=down_east": {
+      "model": "redstonepen:block/track_down_east"
+    },
+    "bend=up_north": {
+      "model": "redstonepen:block/track_up_north"
+    },
+    "bend=up_south": {
+      "model": "redstonepen:block/track_up_south"
+    },
+    "bend=up_west": {
+      "model": "redstonepen:block/track_up_west"
+    },
+    "bend=up_east": {
+      "model": "redstonepen:block/track_up_east"
+    },
+    "bend=north_west": {
+      "model": "redstonepen:block/track_north_west"
+    },
+    "bend=north_east": {
+      "model": "redstonepen:block/track_north_east"
+    },
+    "bend=south_west": {
+      "model": "redstonepen:block/track_south_west"
+    },
+    "bend=south_east": {
+      "model": "redstonepen:block/track_south_east"
+    },
+    "bend=down_up_north": {
+      "model": "redstonepen:block/track_down_up_north"
+    },
+    "bend=down_up_south": {
+      "model": "redstonepen:block/track_down_up_south"
+    },
+    "bend=down_up_west": {
+      "model": "redstonepen:block/track_down_up_west"
+    },
+    "bend=down_up_east": {
+      "model": "redstonepen:block/track_down_up_east"
+    },
+    "bend=down_north_south": {
+      "model": "redstonepen:block/track_down_north_south"
+    },
+    "bend=down_north_west": {
+      "model": "redstonepen:block/track_down_north_west"
+    },
+    "bend=down_north_east": {
+      "model": "redstonepen:block/track_down_north_east"
+    },
+    "bend=down_south_west": {
+      "model": "redstonepen:block/track_down_south_west"
+    },
+    "bend=down_south_east": {
+      "model": "redstonepen:block/track_down_south_east"
+    },
+    "bend=down_west_east": {
+      "model": "redstonepen:block/track_down_west_east"
+    },
+    "bend=up_north_south": {
+      "model": "redstonepen:block/track_up_north_south"
+    },
+    "bend=up_north_west": {
+      "model": "redstonepen:block/track_up_north_west"
+    },
+    "bend=up_north_east": {
+      "model": "redstonepen:block/track_up_north_east"
+    },
+    "bend=up_south_west": {
+      "model": "redstonepen:block/track_up_south_west"
+    },
+    "bend=up_south_east": {
+      "model": "redstonepen:block/track_up_south_east"
+    },
+    "bend=up_west_east": {
+      "model": "redstonepen:block/track_up_west_east"
+    },
+    "bend=north_south_west": {
+      "model": "redstonepen:block/track_north_south_west"
+    },
+    "bend=north_south_east": {
+      "model": "redstonepen:block/track_north_south_east"
+    },
+    "bend=north_west_east": {
+      "model": "redstonepen:block/track_north_west_east"
+    },
+    "bend=south_west_east": {
+      "model": "redstonepen:block/track_south_west_east"
+    }
+  }
+}

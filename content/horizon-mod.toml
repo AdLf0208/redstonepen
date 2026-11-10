@@ -1,0 +1,13 @@
+# Port-owned content mod for the Redstone Pen track slice: the pen item, the
+# track block (straight and corner arms) and the relays, with their data. The
+# block models use vanilla redstone textures as placeholders (the upstream
+# custom renderer is not carried); the block/state semantics are the native
+# port's.
+# Licence: MIT (stefan Wilhelm, https://github.com/stfwi/redstonepen) —
+# local-only until the maintainer approves publishing.
+id = "redstonepen"
+name = "Redstone Pen"
+version = "1.21.1-1.11.42"
+api = "0.2"
+side = "both"
+capabilities = ["registries"]

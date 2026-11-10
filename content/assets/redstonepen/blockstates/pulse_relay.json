@@ -1,0 +1,76 @@
+{
+  "variants": {
+    "facing=down,powered=false,state=0": {
+      "model": "redstonepen:block/relay"
+    },
+    "facing=down,powered=false,state=1": {
+      "model": "redstonepen:block/relay"
+    },
+    "facing=down,powered=true,state=0": {
+      "model": "redstonepen:block/relay"
+    },
+    "facing=down,powered=true,state=1": {
+      "model": "redstonepen:block/relay"
+    },
+    "facing=up,powered=false,state=0": {
+      "model": "redstonepen:block/relay"
+    },
+    "facing=up,powered=false,state=1": {
+      "model": "redstonepen:block/relay"
+    },
+    "facing=up,powered=true,state=0": {
+      "model": "redstonepen:block/relay"
+    },
+    "facing=up,powered=true,state=1": {
+      "model": "redstonepen:block/relay"
+    },
+    "facing=north,powered=false,state=0": {
+      "model": "redstonepen:block/relay"
+    },
+    "facing=north,powered=false,state=1": {
+      "model": "redstonepen:block/relay"
+    },
+    "facing=north,powered=true,state=0": {
+      "model": "redstonepen:block/relay"
+    },
+    "facing=north,powered=true,state=1": {
+      "model": "redstonepen:block/relay"
+    },
+    "facing=south,powered=false,state=0": {
+      "model": "redstonepen:block/relay"
+    },
+    "facing=south,powered=false,state=1": {
+      "model": "redstonepen:block/relay"
+    },
+    "facing=south,powered=true,state=0": {
+      "model": "redstonepen:block/relay"
+    },
+    "facing=south,powered=true,state=1": {
+      "model": "redstonepen:block/relay"
+    },
+    "facing=west,powered=false,state=0": {
+      "model": "redstonepen:block/relay"
+    },
+    "facing=west,powered=false,state=1": {
+      "model": "redstonepen:block/relay"
+    },
+    "facing=west,powered=true,state=0": {
+      "model": "redstonepen:block/relay"
+    },
+    "facing=west,powered=true,state=1": {
+      "model": "redstonepen:block/relay"
+    },
+    "facing=east,powered=false,state=0": {
+      "model": "redstonepen:block/relay"
+    },
+    "facing=east,powered=false,state=1": {
+      "model": "redstonepen:block/relay"
+    },
+    "facing=east,powered=true,state=0": {
+      "model": "redstonepen:block/relay"
+    },
+    "facing=east,powered=true,state=1": {
+      "model": "redstonepen:block/relay"
+    }
+  }
+}

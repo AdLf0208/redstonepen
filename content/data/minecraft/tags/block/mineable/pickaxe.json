@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "redstonepen:track",
+    "redstonepen:relay",
+    "redstonepen:inverted_relay",
+    "redstonepen:pulse_relay",
+    "redstonepen:bistable_relay"
+  ]
+}

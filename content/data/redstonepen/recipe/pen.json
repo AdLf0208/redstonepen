@@ -1,0 +1,11 @@
+{
+  "ingredients": [
+    "minecraft:redstone_block",
+    "minecraft:feather"
+  ],
+  "result": {
+    "id": "redstonepen:pen",
+    "count": 1
+  },
+  "type": "minecraft:crafting_shapeless"
+}

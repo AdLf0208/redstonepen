@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=down,powered=false":  { "model": "redstonepen:block/relay" },
+    "facing=down,powered=true":   { "model": "redstonepen:block/relay" },
+    "facing=up,powered=false":    { "model": "redstonepen:block/relay" },
+    "facing=up,powered=true":     { "model": "redstonepen:block/relay" },
+    "facing=north,powered=false": { "model": "redstonepen:block/relay" },
+    "facing=north,powered=true":  { "model": "redstonepen:block/relay" },
+    "facing=south,powered=false": { "model": "redstonepen:block/relay" },
+    "facing=south,powered=true":  { "model": "redstonepen:block/relay" },
+    "facing=west,powered=false":  { "model": "redstonepen:block/relay" },
+    "facing=west,powered=true":   { "model": "redstonepen:block/relay" },
+    "facing=east,powered=false":  { "model": "redstonepen:block/relay" },
+    "facing=east,powered=true":   { "model": "redstonepen:block/relay" }
+  }
+}

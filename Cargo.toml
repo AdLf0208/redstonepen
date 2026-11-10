@@ -1,0 +1,17 @@
+[package]
+# Ported from: Redstone Pen v1.11.42 (stfwi/redstonepen, MIT),
+# Minecraft Java 1.21.1 NeoForge. Local-only until the maintainer approves.
+name = "horizon-redstonepen"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.95"
+license = "MIT"
+description = "Redstone Pen for Horizon: a pen that draws powered tracks and relays"
+
+[lib]
+# This exact source is also injected as a same-crate module by horizon-mixins.
+path = "mixins/redstonepen/runtime.rs"
+
+[workspace]
+members = ["tools/audit"]
+resolver = "2"

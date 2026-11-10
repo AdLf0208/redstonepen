@@ -1,0 +1,12 @@
+{
+  "language": "English",
+  "language.code": "en_us",
+  "language.region": "United States",
+  "itemGroup.tabredstonepen": "Redstone Pen",
+  "block.redstonepen.track": "Redstone Track",
+  "block.redstonepen.relay": "Redstone Relay",
+  "block.redstonepen.inverted_relay": "Redstone Inverted Relay",
+  "block.redstonepen.pulse_relay": "Redstone Pulse Relay",
+  "block.redstonepen.bistable_relay": "Redstone Bistable Relay",
+  "item.redstonepen.pen": "Redstone Pen"
+}

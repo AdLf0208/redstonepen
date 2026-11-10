@@ -1,0 +1,49 @@
+id = "redstonepen"
+kind = "native-mod"
+name = "redstonepen"
+summary = "A Horizon port of redstonepen."
+description = """
+A port of [redstonepen](stfwi/redstonepen) for Horizon.
+
+**Implemented so far**
+
+- | Behaviour | Upstream |
+- |---|---|
+- | Track registration (`noCollission().instabreak().dynamicShape().randomTicks()`) | `ModContent.java:39-45` |
+- | Pen/quill registration (stack 1; pen durability 256) | `ModContent.java:127-132` |
+- | Relay registration | `ModContent.java:59-66` |
+- | 24 wire bits, 6 connectors, 6 face powers | `RedstoneTrack.java:71-78` |
+- | Segment ↔ face/direction map, internal edges | `RedstoneTrack.java:117-158` |
+- | Internal-edge segments are one net with one power on both internal sides | `RedstoneTrack.java:1146-1312` (edges `:1165-1180`, net `:1219-1312`) |
+
+**Not yet ported**
+
+- One track per block, two or three arms** (the brief's documented
+- simplification): no multiple tracks/connectors in one cell, no per-face
+- attachment, and no fourth arm (a cross/4-way junction is refused). Upstream's
+- segment block entity is not expressible in states; a corner is the
+- two-arm net that fits, a T the three-arm net (1584 states).
+- Corner/T collision box:** the state's `axis` follows the first arm and the
+- content `shapes` bar covers that arm only; the model shows all arms. Content
+- `shapes` can only be keyed on a template property, so a per-shape collision
+
+Original copyright and licence notices are kept in this repository. Pinned to
+Horizon 1d63e0a and horizon-mixins 5a64af93. Help with the remaining slices is
+welcome.
+"""
+authors = ["AdLf0208"]
+owners = ["AdLf0208"]
+owner_ids = [107615167]
+license = "MIT"
+source = "https://github.com/AdLf0208/redstonepen"
+icon = "icons/redstonepen.png"
+categories = ["utility"]
+tags = ["port", "horizon"]
+
+[[versions]]
+version = "0.1.0"
+published = "2026-11-10"
+game = "26.3"
+file = "redstonepen.hnmod"
+sha256 = "215bf23578f0f2c7e8df253da00190d237edb5d20a72c4a1b88f40fac2915e06"
+changelog = "First release"

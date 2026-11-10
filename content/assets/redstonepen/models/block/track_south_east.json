@@ -1,0 +1,74 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "minecraft:block/redstone_block",
+    "track": "minecraft:block/redstone_block"
+  },
+  "elements": [
+    {
+      "from": [
+        7,
+        7,
+        8
+      ],
+      "to": [
+        9,
+        9,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#track"
+        },
+        "up": {
+          "texture": "#track"
+        },
+        "north": {
+          "texture": "#track"
+        },
+        "south": {
+          "texture": "#track"
+        },
+        "west": {
+          "texture": "#track"
+        },
+        "east": {
+          "texture": "#track"
+        }
+      }
+    },
+    {
+      "from": [
+        8,
+        7,
+        7
+      ],
+      "to": [
+        16,
+        9,
+        9
+      ],
+      "faces": {
+        "down": {
+          "texture": "#track"
+        },
+        "up": {
+          "texture": "#track"
+        },
+        "north": {
+          "texture": "#track"
+        },
+        "south": {
+          "texture": "#track"
+        },
+        "west": {
+          "texture": "#track"
+        },
+        "east": {
+          "texture": "#track"
+        }
+      }
+    }
+  ]
+}

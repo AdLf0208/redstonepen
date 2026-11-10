@@ -1,0 +1,31 @@
+{
+  "template": "minecraft:end_rod",
+  "properties": {
+    "hardness": 0.0,
+    "explosion_resistance": 0.0,
+    "light": 0,
+    "requires_tool": false,
+    "map_color": 28,
+    "sounds": "minecraft:stone"
+  },
+  "shapes": {
+    "property": "facing",
+    "values": {
+      "down":  [[0, 0, 0, 1, 0.125, 1]],
+      "up":    [[0, 0.875, 0, 1, 1, 1]],
+      "north": [[0, 0, 0, 1, 1, 0.125]],
+      "south": [[0, 0, 0.875, 1, 1, 1]],
+      "west":  [[0, 0, 0, 0.125, 1, 1]],
+      "east":  [[0.875, 0, 0, 1, 1, 1]]
+    }
+  },
+  "state_properties": {
+    "powered": { "type": "boolean" },
+    "state": { "type": "enum", "values": ["0", "1"] }
+  },
+  "default_state": {
+    "facing": "down",
+    "powered": "false",
+    "state": "0"
+  }
+}

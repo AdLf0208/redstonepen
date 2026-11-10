@@ -1,0 +1,10 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "condition": { "type": "minecraft:survives_explosion" },
+      "entries": [ { "name": "minecraft:redstone", "type": "minecraft:item" } ],
+      "rolls": 1.0
+    }
+  ]
+}
